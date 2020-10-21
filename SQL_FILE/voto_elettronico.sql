@@ -159,7 +159,7 @@ CREATE TABLE IF NOT EXISTS `votazione` (
   `id_utente` bigint(10) DEFAULT NULL,
   `id_elezione` int(11) DEFAULT NULL,
   `id_lista` int(11) DEFAULT NULL,
-votazione  `id_candidato` int(11) DEFAULT NULL,
+  `id_candidato` int(11) DEFAULT NULL,
   `id_candidato2` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `FK_votazione_candidato` (`id_candidato`),
